@@ -30,6 +30,5 @@ sudo dpkg -i wiringpi-latest.deb
 <code>
 npm init \n
 npm install node-wiring-pi
-node_modules package.json 
 </code>
 </pre>
