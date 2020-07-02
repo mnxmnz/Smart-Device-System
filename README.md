@@ -32,3 +32,17 @@ npm init
 npm install node-wiring-pi
 </code>
 </pre>
+# [1-3] relay-switch_OpenAPI
+## WiringPi GPIO API
+<pre>
+<code>
+npm install node-wiring-pi
+</code>
+</pre>
+# [1-5] analog-sensor_SPI
+## Node.js ADC 외부 모듈 설치
+<pre>
+<code>
+npm install mcp-spi-adc
+</code>
+</pre>
