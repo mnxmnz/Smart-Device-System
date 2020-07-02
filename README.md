@@ -85,16 +85,16 @@ $ sudo mysqladmin -u root password 'yourpassword'
 ## [4] - database 생성
 <pre>
 <code>
-MariaDB> show databases ;
+MariaDB> show databases;
 MariaDB> create database sensordb;
-MariaDB> show databases ; 
+MariaDB> show databases; 
 </code>
 </pre>
 ## [4] - table 생성
 <pre>
 <code>
-MariaDB > use sensordb ;
-MariaDB > create table sonic (stamp DATETIME(3) NOT NULL, distance INT) ;
+MariaDB > use sensordb;
+MariaDB > create table sonic (stamp DATETIME(3) NOT NULL, distance INT);
 MariaDB > show tables;
 MariaDB > desc sonic;
 </code>
@@ -104,7 +104,6 @@ MariaDB > desc sonic;
 <code>
 MariaDB > insert into sonic values (now(3), 91);
 MariaDB > select * from sonic;
-MariaDB > quit
 </code>
 </pre>
 ## [4] - Node.js에서의 MySQL 연동 모듈 설치
