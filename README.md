@@ -1,6 +1,7 @@
 # Raspberry-Pi
 > * Framework (Node.js)
 > * Raspbian OS (Linux)
+> * 가천대학교 스마트기기시스템 실습 코드입니다.
 ## 한글 SW 패키지 설치
 <pre>
 <code>
@@ -80,6 +81,20 @@ $ sudo systemctl restart mariadb.service
 <pre>
 <code>
 $ sudo mysqladmin -u root password 'yourpassword'
+</code>
+</pre>
+## [4] - DB 인증 설정
+<pre>
+<code>
+$ mysql -u root –p
+Enter password: *
+MariaDB > set password for root@localhost = password('yourpassword');
+MariaDB > use mysql;
+MariaDB > flush privileges;
+MariaDB > exit
+$ mysql -u root -p
+Enter password: *
+MariaDB >
 </code>
 </pre>
 ## [4] - database 생성
