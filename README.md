@@ -1,3 +1,3 @@
 # Raspberry-Pi
-> * 프레임워크 (Node.JS)
+> * Framework (Node.js)
 > * Raspbian OS (Linux)
