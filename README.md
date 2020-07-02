@@ -33,7 +33,7 @@ npm install node-wiring-pi
 </code>
 </pre>
 # [1-3] relay-switch_OpenAPI
-## WiringPi GPIO API
+## WiringPi GPIO API 설치
 <pre>
 <code>
 npm install node-wiring-pi
@@ -44,5 +44,12 @@ npm install node-wiring-pi
 <pre>
 <code>
 npm install mcp-spi-adc
+</code>
+</pre>
+# [2] node.js_digital-sensor_web-based
+## socket.io 설치
+<pre>
+<code>
+npm install socket.io
 </code>
 </pre>
