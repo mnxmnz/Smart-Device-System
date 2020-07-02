@@ -28,7 +28,7 @@ sudo dpkg -i wiringpi-latest.deb
 ## Node 모듈 설치
 <pre>
 <code>
-npm init \n
+npm init
 npm install node-wiring-pi
 </code>
 </pre>
