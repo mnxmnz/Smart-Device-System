@@ -100,9 +100,7 @@ MariaDB >
 ## [4] - database 생성
 <pre>
 <code>
-MariaDB> show databases;
 MariaDB> create database sensordb;
-MariaDB> show databases; 
 </code>
 </pre>
 ## [4] - table 생성
