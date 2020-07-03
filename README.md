@@ -1,7 +1,6 @@
 # Raspberry-Pi
 > * Framework (Node.js)
 > * Raspbian OS (Linux)
-> * 가천대학교 스마트기기시스템 실습 코드입니다.
 ## 한글 SW 패키지 설치
 <pre>
 <code>
@@ -29,7 +28,6 @@ $ sudo dpkg -i wiringpi-latest.deb
 ## Node 모듈 설치
 <pre>
 <code>
-$ npm init
 $ npm install node-wiring-pi
 </code>
 </pre>
