@@ -123,3 +123,11 @@ MariaDB > select * from sonic;
 $ npm install mysql
 </code>
 </pre>
+## [6] - BLE 모듈 설치
+<pre>
+<code>
+$ sudo apt-get install libbluetooth-dev
+$ npm install @abandonware/bleno
+$ npm install @abandonware/noble
+</code>
+</pre>
