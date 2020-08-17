@@ -1,4 +1,4 @@
-## Raspberry-Pi
+## Raspberry Pi 4
 
 * Framework (Node.js)
 * Raspbian OS (Linux)
