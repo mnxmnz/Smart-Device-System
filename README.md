@@ -1,4 +1,4 @@
-## Smart Device System
+## Smart Device System 📝
 
 스마트 기기 시스템 실습 코드 및 강의 내용 정리 레포입니다.
 
